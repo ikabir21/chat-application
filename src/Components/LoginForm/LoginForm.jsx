@@ -30,6 +30,7 @@ const LoginForm = () => {
     <div className="wrapper">
       <div className="form">
         <h1 className="title">Chat Application</h1>
+        <p style={{textAlign: "center", color:"#ddd"}}>Use username and password as demo</p>
         <form onSubmit={handleSubmit}>
           <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} className="input" placeholder="Username" required />
           <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className="input" placeholder="Password" required />
